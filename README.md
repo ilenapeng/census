@@ -1,4 +1,4 @@
-# Census Bureau The Opportunity Project Data Sprint - Manhattan's Chinatown
+# The Opportunity Project Data Sprint - Manhattan's Chinatown
 
 This is the repository for our project on the decreasing Asian population in Manhattan’s Chinatown over the past decade, which was created as part of the Census Bureau’s The Opportunity Project data sprint. 
 

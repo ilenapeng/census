@@ -25,4 +25,9 @@ Data was pulled from the Census tract level (tracts 16, 29 and 41 in New York Co
 
 [data_output](https://github.com/ilenapeng/census/tree/main/data_output) — Data exported from the ACS and Decennial Jupyter notebooks
 
-[graphics](https://github.com/ilenapeng/census/tree/main/graphics) — Graphics we created in Datawrapper and Illustrator, along with a [Jupyter notebook](https://github.com/ilenapeng/census/blob/main/graphics/manhattan_geojson.ipynb) filtering a NYC geojson to Chinatown and its surrounding neighborhoods
+[graphics](https://github.com/ilenapeng/census/tree/main/graphics) — PNGs and code for graphics
+* [cdta_chinatown.ipynb](https://github.com/ilenapeng/census/blob/main/graphics/cdta_chinatown.ipynb) - creates [cdta.geojson](https://github.com/ilenapeng/census/blob/main/graphics/cdta.geojson), a file with only the geographic areas of and surrounding Chinatown
+* [zcta_chinatown.ipynb](https://github.com/ilenapeng/census/blob/main/graphics/zcta_chinatown.ipynb) - creates [zcta.geojson](https://github.com/ilenapeng/census/blob/main/graphics/zcta_chinatown.geojson), a file with only 10002 and 10013
+    * Brought both of the above files into [R](https://github.com/ilenapeng/census/blob/main/graphics/income-map.R) to create the [income map](https://github.com/ilenapeng/census/blob/main/graphics/income-map.R)
+    * Used cdta.geojson in Datawrapper to create the [percent change map](https://github.com/ilenapeng/census/blob/main/graphics/pctchange-map.png)
+    * Remainder of graphics made in Datawrapper
